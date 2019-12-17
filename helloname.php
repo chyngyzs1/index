@@ -1,10 +1,10 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Hello</title>
 </head>
 <body>
-	<h1>Hello!</h1>
+	Hello <?php echo $_POST["name"] ?>!
 </body>
 </html>
